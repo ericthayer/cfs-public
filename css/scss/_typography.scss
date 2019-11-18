@@ -1,6 +1,8 @@
 body {
   color: var(--cfs-gray-dark);
   font-family: $sans-serif;
+  -moz-osx-font-smoothing: greyscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 .font-sans-serif {

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/about-us/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog-detail/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/components/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/contact/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/our-process/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/partners/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/showcase-detail/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/showcase/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/team/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/two-column/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
+    <loc>/_404/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+  </url>
+  
+</urlset>

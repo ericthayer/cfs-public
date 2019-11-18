@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+    />
+
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container-fluid px-0">
+        <nav class="main-menu navbar navbar-expand-lg">
+          <div class="top-menu container">
+            <a class="navbar-brand" href="/">
+              <img class="logo" src="images/logo-CFS-color.png" />
+            </a>
+            <span
+              class="mobile-menu d-flex align-items-center pr-3 pl-3 pl-sm-0"
+            >
+              <a href="/" class="icon-home h1 mb-0 mr-2 d-lg-none"
+                ><i class="fa fa-home"></i
+              ></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </span>
+            <div class="contact">
+              <ul class="list icon-list d-none d-lg-flex">
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-facebook-circled.png" alt=""
+                  /></a>
+                </li>
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-twitter-circled.png" alt=""
+                  /></a>
+                </li>
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-linkedin-circled.png" alt=""
+                  /></a>
+                </li>
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-instagram-circled.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <div class="contact-info">
+                <span class="text-uppercase">Get In Touch</span>
+                <a href="tel:8005001098">800-500-1098</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="collapse navbar-collapse theme-dark bg-gray"
+            id="mainMenu"
+          >
+            <div class="menu-header d-lg-none">
+              <div class="wrap">
+                <p class="h2">Menu</p>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#mainMenu"
+                  aria-controls="mainMenu"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="fa fa-times-circle"></i>
+                </button>
+              </div>
+            </div>
+            <ul class="navbar-nav mr-auto container px-3">
+              <li class="nav-item active">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/our-process">Our Process</a>
+              </li>
+              <li class="nav-item dropdown">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Project Showcase
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Multi-Family</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Corporate</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Parks & Recreation</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Senior Living</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Medical & Sports Performance</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Hospitality</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>School Accounts</span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/national-accounts"
+                  >National Accounts</a
+                >
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/partners"
+                  >Equipment/Flooring Partners</a
+                >
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/media">Media & PR</a>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <div class="container d-lg-flex p-3 py-lg-5 justify-content-center">
+      <main class="main-content mr-lg-4" role="main">
+        <article class="post flex-column mb-5 p-4">
+          <div class="text theme-light">
+            <h2
+              id="Our-Facility-Planning-Process-Will-Maximize-Your-Space"
+              class="h3 mb-4"
+            >
+              Our Facility Planning Process Will Maximize Your Space
+            </h2>
+            <time class="date" datetime>Nov 18, 2019</time>
+            <p>
+              Quam id vitae <u>saepe optio quos doloribus</u> asperiores,
+              repellat reiciendis
+              <a href="#0">Text Link dolorum commodi ex praesentium</a> beatae
+              nostrum, <strong>Strong recusandae sapiente illum</strong> vel
+              facere explicabo exercitationem, velit accusantium error. Quasi
+              sint molestias impedit natus, ea eveniet iure,
+              <em>Italic magni nihil esse nulla placeat</em> tempore sequi
+              incidunt omnis culpa nemo voluptate porro asperiores iusto
+              recusandae enim praesentium, qui eos!
+            </p>
+          </div>
+          <div class="actions pt-3">
+            <a href="#0" class="btn primary">Button Primary</a>
+          </div>
+        </article>
+        <article class="post flex-column mb-5 p-4">
+          <div class="text theme-light">
+            <h2
+              id="Our-Facility-Planning-Process-Will-Maximize-Your-Space"
+              class="h3 mb-4"
+            >
+              Our Facility Planning Process Will Maximize Your Space
+            </h2>
+            <time class="date" datetime>Nov 18, 2019</time>
+            <p>
+              Quam id vitae <u>saepe optio quos doloribus</u> asperiores,
+              repellat reiciendis
+              <a href="#0">Text Link dolorum commodi ex praesentium</a> beatae
+              nostrum, <strong>Strong recusandae sapiente illum</strong> vel
+              facere explicabo exercitationem, velit accusantium error. Quasi
+              sint molestias impedit natus, ea eveniet iure,
+              <em>Italic magni nihil esse nulla placeat</em> tempore sequi
+              incidunt omnis culpa nemo voluptate porro asperiores iusto
+              recusandae enim praesentium, qui eos!
+            </p>
+          </div>
+          <div class="actions pt-3">
+            <a href="#0" class="btn primary">Button Primary</a>
+          </div>
+        </article>
+        <article class="post flex-column mb-5 p-4">
+          <div class="text theme-light">
+            <h2
+              id="Our-Facility-Planning-Process-Will-Maximize-Your-Space"
+              class="h3 mb-4"
+            >
+              Our Facility Planning Process Will Maximize Your Space
+            </h2>
+            <time class="date" datetime>Nov 18, 2019</time>
+            <p class="lead mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              nulla maiores, eius voluptas quidem nemo. Placeat praesentium
+              explicabo, id excepturi architecto ratione provident impedit
+              error.
+            </p>
+            <figure class="media-wrap mb-5">
+              <iframe
+                width="100%"
+                title=""
+                src="//www.youtube.com/embed/Q1cS6E2jieY"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+                allowfullscreen
+              ></iframe>
+            </figure>
+            <small class="d-block text-muted mb-3"
+              >Vitae est quo rem suscipit illum repellendus numquam veniam.
+              Accusantium laborum placeat fugiat repudiandae eveniet voluptate
+              quod ipsa maiores, error obcaecati sed at accusamus
+              necessitatibus, nisi ad quas tenetur enim praesentium ex
+              blanditiis sit dolorem, similique fugit? Laudantium, nam.</small
+            >
+            <p>
+              Quam id vitae saepe optio quos doloribus asperiores, repellat
+              reiciendis beatae nostrum, nemo eligendi recusandae sapiente illum
+              vel facere explicabo exercitationem, velit accusantium error.
+              Quasi sint molestias impedit natus, ea eveniet iure, magni nihil
+              esse nulla placeat tempore sequi incidunt omnis culpa nemo
+              voluptate porro asperiores iusto recusandae enim praesentium, qui
+              eos! Ab, omnis rerum? Facere eveniet pariatur, maiores molestiae
+              minus velit quam rerum atque fugiat animi?
+            </p>
+            <h2>Heading h2</h2>
+            <p>
+              Quam id vitae <u>saepe optio quos doloribus</u> asperiores,
+              repellat reiciendis
+              <a href="#0">Text Link dolorum commodi ex praesentium</a> beatae
+              nostrum, <strong>Strong recusandae sapiente illum</strong> vel
+              facere explicabo exercitationem, velit accusantium error. Quasi
+              sint molestias impedit natus, ea eveniet iure,
+              <em>Italic magni nihil esse nulla placeat</em> tempore sequi
+              incidunt omnis culpa nemo voluptate porro asperiores iusto
+              recusandae enim praesentium, qui eos! Ab, omnis rerum?
+              <em
+                ><strong
+                  >Italic Strong eveniet pariatur, maiores molestiae</strong
+                ></em
+              >
+              minus velit quam rerum atque fugiat. Adipisci voluptas dolorem ea
+              ut amet est hic exercitationem quos? Maiores est, magnam deleniti!
+              Quaerat labore incidunt consequuntur aliquam. Voluptatem atque
+              repudiandae totam natus itaque ea necessitatibus animi.
+            </p>
+            <h3>Heading h3</h3>
+            <p>
+              Ab ratione deleniti iusto delectus officiis necessitatibus
+              assumenda, illo facilis corrupti ex earum hic, pariatur unde.
+              Obcaecati at accusamus in maiores deleniti.
+            </p>
+            <ul>
+              <li>
+                Standard Bullets indent 20 px Bullet is bold and Green Giatum
+                qui tat la aut laor irit duis autpat ing exercilisi.
+              </li>
+              <li>
+                Laudantium et deserunt autem fugiat itaque reprehenderit
+                repellendus molestias odio.
+              </li>
+              <li>Quas temporibus expedita consequatur.</li>
+            </ul>
+            <p>
+              Quam id vitae saepe optio quos doloribus asperiores, repellat
+              reiciendis beatae nostrum, nemo eligendi recusandae sapiente illum
+              vel facere explicabo exercitationem, velit accusantium error.
+              Quasi sint molestias.
+            </p>
+            <ol>
+              <li>
+                Standard Bullets indent 20 px Bullet is bold and Green Giatum
+                qui tat la aut laor irit duis autpat ing exercilisi.
+              </li>
+              <li>
+                Laudantium et deserunt autem fugiat itaque reprehenderit
+                repellendus molestias odio.
+              </li>
+              <li>Quas temporibus expedita consequatur.</li>
+            </ol>
+            <p>
+              Voluptatem maiores quos ullam dignissimos, explicabo earum odit
+              aliquid natus quidem fuga magnam nesciunt recusandae rerum.
+              Suscipit earum similique cumque veniam, ex laudantium! Ipsum rem,
+              eligendi provident itaque ut fuga iste fugit.
+            </p>
+            <dl>
+              <dt>Definition Tag</dt>
+              <dd>
+                Definition description goes here inventore quisquam nisi quo
+                dolores laudantium culpa aut, ducimus illum officiis cumque non
+                neque harum.
+              </dd>
+              <dt>Another Definition Item</dt>
+              <dd>
+                Nesciunt harum est vitae reprehenderit vel perspiciatis fuga
+                quidem delectus modi amet perferendis vero veniam corporis
+                inventore, earum non tempore.
+              </dd>
+            </dl>
+            <h4>Heading h4</h4>
+            <p>
+              Vitae est quo rem suscipit illum repellendus numquam veniam.
+              Accusantium laborum placeat fugiat repudiandae eveniet voluptate
+              quod ipsa maiores, error obcaecati sed at accusamus
+              necessitatibus, nisi ad quas tenetur enim praesentium ex
+              blanditiis sit dolorem, similique fugit? Laudantium, nam.
+            </p>
+            <dl class="row">
+              <dt class="col-sm-3">Description lists</dt>
+              <dd class="col-sm-9">
+                A description list is perfect for defining terms.
+              </dd>
+
+              <dt class="col-sm-3">Euismod</dt>
+              <dd class="col-sm-9">
+                <p>
+                  Vestibulum id ligula porta felis euismod semper eget lacinia
+                  odio sem nec elit.
+                </p>
+                <p>Donec id elit non mi porta gravida at eget metus.</p>
+              </dd>
+
+              <dt class="col-sm-3">Malesuada porta</dt>
+              <dd class="col-sm-9">
+                Etiam porta sem malesuada magna mollis euismod.
+              </dd>
+
+              <dt class="col-sm-3 text-truncate">
+                Truncated term is truncated
+              </dt>
+              <dd class="col-sm-9">
+                Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                condimentum nibh, ut fermentum massa justo sit amet risus.
+              </dd>
+
+              <dt class="col-sm-3">Nesting</dt>
+              <dd class="col-sm-9">
+                <dl class="row">
+                  <dt class="col-sm-4">Nested definition list</dt>
+                  <dd class="col-sm-8">
+                    Aenean posuere, tortor sed cursus feugiat, nunc augue
+                    blandit nunc.
+                  </dd>
+                </dl>
+              </dd>
+            </dl>
+          </div>
+          <figure class="media-wrap">
+            <img src="https://via.placeholder.com/600x450" alt="" />
+          </figure>
+          <div class="actions pt-5">
+            <a href="#0" class="btn primary">Button Primary</a>
+          </div>
+        </article>
+      </main>
+      <aside class="page-sidebar" role="complementary">
+        <a href="#0" class="btn primary">Back to Main Page</a>
+        <nav class="sidebar theme-dark bg-gray">
+          <p class="menu-header color-green">Categories</p>
+          <ul class="list">
+            <li><a href="#0">CFS News</a></li>
+            <li><a href="#0">Fitness News</a></li>
+            <li><a href="#0">Equipment Information</a></li>
+            <li><a href="#0">Flooring Information</a></li>
+          </ul>
+        </nav>
+        <ul class="list icons">
+          <li class="mb-2">
+            <a href="#0"><img src="images/icon-facebook-square.png" alt=""/></a>
+          </li>
+          <li class="mb-2">
+            <a href="#0"><img src="images/icon-twitter-square.png" alt=""/></a>
+          </li>
+          <li>
+            <a href="#0"><img src="images/icon-linkedin-square.png" alt=""/></a>
+          </li>
+        </ul>
+        <ul class="list h4 text-center text-uppercase pt-3 pb-4 color-green">
+          <li class="mb-4">Have Questions?<br />Contact Us</li>
+          <li class="mb-4">
+            Toll Free<br /><a href="tel:8005001098">800.500.1098</a>
+          </li>
+          <li>Colorado<br /><a href="tel:7204798200">720.479.8200</a></li>
+        </ul>
+      </aside>
+    </div>
+
+    <footer class="site-footer theme-dark bg-gray">
+      <div class="container py-5">
+        <div class="flex-row">
+          <div class="contact-block flex-md mb-5 mb-lg-0">
+            <img class="logo mb-4" src="images/logo-CFS-white.png" />
+            <address class="mb-3">
+              <p class="mb-0">
+                12386 Dumont Way, Ste. 100<br />Littleton, CO 80125
+              </p>
+            </address>
+            <p class="mb-0">
+              <span>Phone:</span> <a href="tel:7204798200">720.479.8200</a>
+            </p>
+            <p class="mb-4">
+              <span>Fax:</span> <a href="tel:7204798201">720.479.8201</a>
+            </p>
+            <small class="mb-4">© Commericial Fitness Solutions, 2017</small>
+            <img
+              class="mb-1"
+              src="images/logo-BBB.png"
+              alt="CFS BBB A+ rating"
+            />
+            <div class="actions pt-3">
+              <a href="#">Privacy Policy</a> <span class="px-2">|</span>
+              <a href="#">Terms of Use</a>
+            </div>
+          </div>
+          <div class="map">
+            <p class="h3 text-uppercase mb-3">Our Location</p>
+            <div class="media map-embed">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="100%"
+                    height="320"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=12386%20Dumont%20Way%2C%20Ste.%20100%20Littleton%2C%20CO%2080125&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe
+                  >Google Maps Generator by
+                  <a href="https://www.embedgooglemap.net"
+                    >embedgooglemap.net</a
+                  >
+                </div>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 320px;
+                    width: 100%;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 320px;
+                    width: 100%;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="designer-link">
+        <div class="container py-3">
+          <small class="mb-0"
+            ><span>Denver Website Design by</span>
+            <a href="https://381design.com/">381 Design</a></small
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+  <script>
+    var slider = tns({
+      container: ".logo-grid",
+      items: 2,
+      edgePadding: 0,
+
+      controlsContainer: "#customize-controls",
+      navPosition: "bottom",
+      responsive: {
+        320: {
+          items: 2
+        },
+        540: {
+          items: 3
+        },
+        700: {
+          items: 5
+        },
+        900: {
+          items: 7
+        }
+      }
+    });
+  </script>
+</html>

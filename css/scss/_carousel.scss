@@ -1,0 +1,115 @@
+.logo-grid {
+  // display: flex;
+  // align-items: center;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+  li  {
+    // width: 100%;
+    text-align: center;
+  }
+
+  .tns-transparent {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &.tns-horizontal.tns-subpixel>.tns-item {
+    // display: flex;
+    // justify-content: center;
+  }
+}
+
+.controls {
+  display: none;
+  text-align: center;
+  
+  @media screen and (min-width: 900px) {
+    display: block !important;
+  }
+}
+
+.controls li {
+  display: block;
+  position: absolute;
+  top: 50%;
+  height: 60px;
+  line-height: 60px;
+  margin-top: -30px;
+  padding: 0 15px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.controls li img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.controls .prev {
+  left: 0;
+}
+
+.controls .next {
+  right: 0;
+}
+
+.controls li:hover {
+  background: #f2f2f2;
+}
+
+.tns-controls {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.tns-controls [aria-controls] {
+  font-size: 15px;
+  margin: 0 5px;
+  padding: 0 1em;
+  height: 2.5em;
+  color: #000;
+  background: #66CCFF;
+  border-radius: 3px;
+  border: 0;
+}
+
+.lt-ie9 .tns-controls > [aria-controls] {
+  line-height: 2.5em;
+}
+
+[data-action] {
+  display: block;
+  margin: 10px auto;
+  font-size: 17px;
+  min-width: 3em;
+  text-align: center;
+  background: transparent;
+  border: 0;
+}
+
+.tns-controls [disabled] {
+  color: #999999;
+  background: #B3B3B3;
+  cursor: not-allowed !important;
+}
+
+.tns-nav {
+  text-align: center;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+.tns-nav > [aria-controls] {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  margin: 0 5px;
+  border-radius: 50%;
+  background: #ddd;
+  border: 0;
+}
+
+.tns-nav > .tns-nav-active {
+  background: #999;
+}

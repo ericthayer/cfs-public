@@ -1,0 +1,104 @@
+.btn {
+  border: 0;
+  border-radius: 0;
+  font-weight: 600;
+  letter-spacing: .01em;
+  padding: .5rem .75rem;
+  text-transform: uppercase;
+  // transition: opacity .4s;
+
+  &.primary {
+    background-color: var(--cfs-green);
+    color: var(--cfs-white);
+    text-shadow: 1px 1px 0 rgba(#78ac01, .5);
+    
+    &:hover,
+    &:focus {
+      background-color: #eee;
+      color: var(--cfs-green);   
+      text-shadow: none;   
+    }
+  }  
+ 
+  &.secondary {
+    background-color: #ddd;
+    color: var(--cfs-gray);
+    
+    &:hover,
+    &:focus {
+      background-color: var(--cfs-gray-light);      
+      color: var(--cfs-white);      
+    }
+  }
+
+  &.light {
+    background-color: #fff;
+    color: var(--cfs-green);
+    
+    &:hover,
+    &:focus {
+      background-color: var(--cfs-green);      
+      color: var(--cfs-white);      
+    }
+  }
+  
+  &.dark {
+    background-color: var(--cfs-gray);
+    color: var(--cfs-white);
+
+    &:hover,
+    &:focus {
+      background-color: #ddd;
+      color: var(--cfs-gray);     
+    }
+  }
+  
+  &.alt {
+    background-color: var(--cfs-gray);
+    color: var(--cfs-green);
+    
+    &:hover,
+    &:focus {
+      background-color: var(--cfs-green);      
+      color: var(--cfs-grey);      
+    }
+  }
+
+  &.text {
+    color: var(--cfs-green);
+    // text-decoration: underline;
+    // -webkit-text-decoration-skip: ink;
+    // text-decoration-skip-ink: auto;
+  }
+
+  &.outline {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 2px currentColor;
+
+    &:hover,
+    &:focus {
+      box-shadow: none;
+    }
+
+    &.primary {
+      color: var(--cfs-green);
+    }
+
+    &.secondary:not(:hover):not(:focus) {
+      color: var(--cfs-gray-light);
+    }
+  
+    &.light:not(:hover):not(:focus) {
+      color: var(--cfs-white);
+    }
+  
+    &.dark:not(:hover):not(:focus) {
+      color: var(--cfs-gray);
+    }
+  
+    &.alt:not(:hover):not(:focus) {
+      box-shadow: inset 0 0 0 2px var(--cfs-gray);
+      color: var(--cfs-green);
+    }
+  }
+}

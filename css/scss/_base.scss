@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700+Merriweather:500&display=swap');
+
+:root {
+  --cfs-green: #84bd00;
+  --cfs-green-dark: #78ac01;
+  --cfs-gray: #5e6a71;
+  --cfs-gray-light: #a7a8aC;
+  --cfs-gray-dark: #485156;
+  --cfs-white: #ffffff;
+}
+
+$break-sm: 540px;
+$break-md: 768px;
+$break-lg: 992px;
+
+$sans-serif: "Open Sans", -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$serif: "Merriweather", "Garamond", "Cambria", Georgia, serif;
+
+// base
+
+body {
+
+  @media screen and (min-width: $break-md) {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}
+
+img {
+  line-height: 0;
+  max-width: 100%;
+}
+
+a {
+  color: var(--cfs-green);
+  // color: currentColor;
+
+  &:hover,
+  &:focus {
+    text-decoration: none;
+  }
+}
+
+.container.container {
+  max-width: 80em;
+  width: 100%;
+}
+
+.container,
+.container-fluid {
+  padding-right: 1rem;
+  padding-left: 1rem;
+
+  @media screen and (min-width: 1200px) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+.fixed-bg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.flex-grow-2 {
+  flex-grow: 2;
+}
+
+.page-sidebar {
+  display: flex;
+  flex-direction: column;
+
+  .list.icons {
+    text-align: center;
+  }
+
+  > * {
+    & + * {
+      margin-top: 1rem;
+    } 
+  }
+
+  @media screen and (max-width: $break-lg) {
+    > * {
+      margin-right: auto;
+      margin-left: auto;
+    }
+  }
+}
+
+nav.sidebar {
+  background: var(--cfs-gray);
+
+  .menu-header {
+    margin-bottom: 0;
+    max-width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  a {
+    border-top: 1px solid var(--cfs-white);
+    display: block;
+    font-size: .875rem;
+    padding: .4rem .75rem;
+    text-transform: uppercase;
+  }
+
+}
+
+.main-content {
+  flex-grow: 1;
+  @media screen and (min-width: $break-md) {
+  }
+}
+
+.two-column {
+  flex-grow: 1;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+
+  @media screen and (min-width: $break-lg) {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+    .main-content {
+      width: calc(75vw - 3rem);
+    }
+
+    .page-sidebar {
+      width: 25vw;
+      min-width: 16rem;
+      margin-left: 3rem;
+
+      .list.icons {
+        text-align: left;
+      }
+    }
+  }
+}

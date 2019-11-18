@@ -1,0 +1,68 @@
+.grid {
+  
+  @media screen and (max-width: $break-sm) {
+    text-align: center;
+    
+    > *:not(:last-child) {
+      padding-bottom: 1.5rem;
+    }
+
+  }
+  
+  @media screen and (min-width: $break-sm) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    > * {
+      flex-grow: 1;
+      padding: .5rem;
+      padding: calc(1vw + .25rem);
+    }
+
+    &.three-col {
+
+      > * {
+        flex-basis: 33%;
+        padding: .5rem 2rem;
+      }
+    }
+
+    .media-thumbs & {
+        
+      > * {
+        max-width: 17rem;
+        
+      }
+    }
+
+    .partner-list & {
+      margin-right: auto;
+      margin-left: auto;
+      max-width: 65em;
+        
+      > * {
+        display: flex;
+        align-items: center;
+        flex: 0 1 auto;
+        padding: .75rem 1rem;
+      }
+
+      .title {
+        flex-basis: 100% !important;
+        justify-content: center;
+
+      }
+    }
+  }
+
+  @media screen and (min-width: $break-md) {
+
+    .media-thumbs & {
+        
+      > * {
+        max-width: 21rem;
+      }
+    }
+  }
+}

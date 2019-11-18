@@ -1,0 +1,75 @@
+// theme colors
+
+.theme {
+
+  &-light {
+    // background: var(--cfs-white);
+    color: var(--cfs-gray-dark);
+
+    h1, h2, h3, h4, h5, h6 {
+      color: var(--cfs-green-dark);
+    }
+
+    a:not(.btn) {
+      color: currentColor;
+    }
+    
+  }
+
+  &-dark {
+    // background: var(--cfs-gray);
+    color: var(--cfs-white);
+
+    a:not(.btn) {
+      color: currentColor;
+    }
+  }
+}
+
+.bg-green {
+  background-color: var(--cfs-green);
+}
+
+.bg-green-dark {
+  background-color: var(--cfs-green-dark);
+}
+
+.bg-gray {
+  background-color: var(--cfs-gray);
+}
+
+.bg-gray-light {
+  background-color: var(--cfs-gray-light);
+}
+
+.bg-white {
+  background-color: var(--cfs-white);
+}
+
+.bg-light {
+  background-color: #eee !important;
+}
+
+.color-green {
+  color: var(--cfs-green);
+}
+
+.color-green-dark{
+  color: var(--cfs-green-dark);
+}
+
+.color-gray {
+  color: var(--cfs-gray);
+}
+
+.color-gray-light {
+  color: var(--cfs-gray-light);
+}
+
+.color-white {
+  color: var(--cfs-white);
+}
+
+.color-light {
+  color: #787878;
+}

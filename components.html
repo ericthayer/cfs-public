@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css"
+    />
+
+    <link rel="stylesheet" href="css/styles.min.css" />
+  </head>
+
+  <body>
+    <header class="site-header">
+      <div class="container-fluid px-0">
+        <nav class="main-menu navbar navbar-expand-lg">
+          <div class="top-menu container">
+            <a class="navbar-brand" href="/">
+              <img class="logo" src="images/logo-CFS-color.png" />
+            </a>
+            <span
+              class="mobile-menu d-flex align-items-center pr-3 pl-3 pl-sm-0"
+            >
+              <a href="/" class="icon-home h1 mb-0 mr-2 d-lg-none"
+                ><i class="fa fa-home"></i
+              ></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#mainMenu"
+                aria-controls="mainMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </span>
+            <div class="contact">
+              <ul class="list icon-list d-none d-lg-flex">
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-facebook-circled.png" alt=""
+                  /></a>
+                </li>
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-twitter-circled.png" alt=""
+                  /></a>
+                </li>
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-linkedin-circled.png" alt=""
+                  /></a>
+                </li>
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-instagram-circled.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <div class="contact-info">
+                <span class="text-uppercase">Get In Touch</span>
+                <a href="tel:8005001098">800-500-1098</a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            class="collapse navbar-collapse theme-dark bg-gray"
+            id="mainMenu"
+          >
+            <div class="menu-header d-lg-none">
+              <div class="wrap">
+                <p class="h2">Menu</p>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#mainMenu"
+                  aria-controls="mainMenu"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <i class="fa fa-times-circle"></i>
+                </button>
+              </div>
+            </div>
+            <ul class="navbar-nav mr-auto container px-3">
+              <li class="nav-item active">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/our-process">Our Process</a>
+              </li>
+              <li class="nav-item dropdown">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  Project Showcase
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Multi-Family</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Corporate</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Parks & Recreation</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Senior Living</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Medical & Sports Performance</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>Hospitality</span>
+                  </a>
+                  <a class="dropdown-item" href="#">
+                    <i class="fa fa-caret-right d-lg-none"></i>
+                    <span>School Accounts</span>
+                  </a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/national-accounts"
+                  >National Accounts</a
+                >
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/partners"
+                  >Equipment/Flooring Partners</a
+                >
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/about-us">About Us</a>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/media">Media & PR</a>
+              </li>
+              <li class="nav-item">
+                <i class="fa fa-caret-right d-lg-none"></i>
+                <a class="nav-link" href="/contact">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main-content" role="main">
+      <section class="hero">
+        <div id="heroMain" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#heroMain" data-slide-to="0" class="active"></li>
+            <li data-target="#heroMain" data-slide-to="1"></li>
+            <li data-target="#heroMain" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://via.placeholder.com/1600x900/CCCCCC/84BD00/"
+                class="d-block w-100"
+                alt=""
+              />
+              <div class="carousel-caption d-none d-md-flex">
+                <h2>
+                  Create the Optimal User Experience for Your Fitness Facility
+                </h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://via.placeholder.com/1600x900/84BD00/FFFFFFF/"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-flex">
+                <h2>Second slide label</h2>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://via.placeholder.com/1600x900/CCCCCC/84BD00/"
+                class="d-block w-100"
+                alt=""
+              />
+              <div class="carousel-caption d-none d-md-flex">
+                <h2>Third slide label</h2>
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#heroMain"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#heroMain"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </section>
+
+      <section class="hero hero-slim">
+        <div class="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img
+                src="https://via.placeholder.com/1600x900/84BD00/CCCCCC"
+                class="d-block w-100"
+                alt=""
+              />
+              <div class="carousel-caption d-none d-md-flex">
+                <h2>Large headline for the Process page that can be 2 lines</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="media-thumbs py-5 text-center">
+        <div class="container-fluid px-0">
+          <div class="intro theme-light">
+            <h2 class="h1 text-center">Project Showcase</h2>
+            <p class="lead">
+              Sentence or two about visiting the Showcase area with all the
+              project images. So from large to small CFS designs the best use of
+              space
+            </p>
+          </div>
+          <div class="dropdown pt-3 text-center">
+            <button
+              class="btn text dropdown-toggle"
+              type="button"
+              id="dropdownFacilityType"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Facility Type
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownFacilityType">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </ul>
+          </div>
+          <hr class="p-0" />
+          <ul class="list grid justify-content-center">
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+            <li>
+              <figure class="thumbnail" tabindex="0">
+                <figcaption>Card Title Goes Here</figcaption>
+                <div class="actions">
+                  <a href="#0" class="btn outline light">Details</a>
+                  <a href="#0" class="btn outline light">Gallery</a>
+                </div>
+                <div class="img-set">
+                  <img
+                    src="https://via.placeholder.com/500x500"
+                    class="initial-img"
+                    alt="..."
+                  />
+                  <img
+                    src="https://via.placeholder.com/500x500/00CCFF/FFFFFF?text=New Img"
+                    class="alt-img"
+                    alt="..."
+                  />
+                </div>
+              </figure>
+            </li>
+          </ul>
+          <div class="actions pt-5">
+            <a href="#0" class="btn primary">View Our Showcase</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner text-center bg-gray">
+        <div class="container-fluid">
+          <div class="intro theme-dark">
+            <h2 class="h1">
+              Our Facility Planning Process Will Maximize Your Space
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+              nulla maiores, eius voluptas quidem nemo. Placeat praesentium
+              explicabo, id.
+            </p>
+            <p>
+              Repudiandae illo ullam laudantium iure officiis sint aut mollitia
+              voluptatem, repellat, dicta, exercitationem consequatur nesciunt
+              aperiam necessitatibus aliquid facere possimus eligendi deserunt!
+              Tenetur quis optio facilis dolorum ipsam inventore exercitationem
+              error qui! Officiis perferendis soluta aspernatur veritatis
+              architecto aliquam odit minus quisquam.
+            </p>
+          </div>
+          <div class="actions pt-5">
+            <a href="#0" class="btn primary">Learn About Our Process</a>
+          </div>
+        </div>
+        <img
+          src="https://via.placeholder.com/1750x540/666666/555555"
+          class="fixed-bg"
+          alt="this should be a dark image"
+        />
+      </section>
+
+      <section class="banner">
+        <div class="container">
+          <div class="flex-row">
+            <div class="text theme-light flex-lg">
+              <h2 class="h1">
+                Our Facility Planning Process Will Maximize Your Space
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                nulla maiores, eius voluptas quidem nemo. Placeat praesentium
+                explicabo, id excepturi architecto ratione provident impedit
+                error.
+              </p>
+              <p>
+                Repudiandae illo ullam laudantium iure officiis sint aut
+                mollitia voluptatem, repellat, dicta, exercitationem consequatur
+                nesciunt aperiam necessitatibus aliquid facere possimus eligendi
+                deserunt! Tenetur quis optio facilis dolorum ipsam inventore
+                exercitationem error qui! Officiis perferendis soluta aspernatur
+                veritatis architecto aliquam odit minus quisquam.
+              </p>
+            </div>
+            <div class="media flex-grow-2">
+              <figure>
+                <img src="https://via.placeholder.com/600x450" alt="" />
+              </figure>
+            </div>
+          </div>
+          <div class="actions text-center pt-5">
+            <a href="#0" class="btn primary">Button Primary</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner">
+        <div class="container">
+          <div class="flex-row-reverse">
+            <div class="text theme-light flex-lg">
+              <h2 class="h1">
+                Our Facility Planning Process Will Maximize Your Space
+              </h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore
+                nulla maiores, eius voluptas quidem nemo. Placeat praesentium
+                explicabo, id excepturi architecto ratione provident impedit
+                error.
+              </p>
+              <p>
+                Repudiandae illo ullam laudantium iure officiis sint aut
+                mollitia voluptatem, repellat, dicta, exercitationem consequatur
+                nesciunt aperiam necessitatibus aliquid facere possimus eligendi
+                deserunt! Tenetur quis optio facilis dolorum ipsam inventore
+                exercitationem error qui! Officiis perferendis soluta aspernatur
+                veritatis architecto aliquam odit minus quisquam.
+              </p>
+            </div>
+            <div class="media">
+              <figure>
+                <img src="https://via.placeholder.com/600x450" alt="" />
+              </figure>
+            </div>
+          </div>
+          <div class="actions text-center pt-5">
+            <a href="#0" class="btn primary">Button Primary</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials bg-light">
+        <div class="container py-5">
+          <div class="intro text-center theme-light">
+            <h2 class="h1">What Our Clients are Saying</h2>
+          </div>
+          <ul class="list grid three-col">
+            <li>
+              <blockquote class="blockquote testimonial">
+                <p class="quote">
+                  "Client Testimonials limited by character count are auto fade
+                  in or reload on refresh or new page. Meaning it will pull a
+                  random quote each time a page loads. I recommend keeping these
+                  pretty short and not to wordy. Simple and clean. Max 250 ch.”
+                </p>
+                <footer class="blockquote-footer">
+                  Bob, <cite title="Source Title">Manager of XXX Facility</cite>
+                </footer>
+              </blockquote>
+            </li>
+            <li>
+              <blockquote class="blockquote testimonial">
+                <p class="quote">
+                  "Client Testimonials limited by character count are auto fade
+                  in or reload on refresh or new page. Meaning it will pull a
+                  random quote each time a page loads. I recommend keeping these
+                  pretty short and not to wordy. Simple and clean. Max 250 ch.”
+                </p>
+                <footer class="blockquote-footer">
+                  Bob, <cite title="Source Title">Manager of XXX Facility</cite>
+                </footer>
+              </blockquote>
+            </li>
+            <li>
+              <blockquote class="blockquote testimonial">
+                <p class="quote">
+                  "Client Testimonials limited by character count are auto fade
+                  in or reload on refresh or new page. Meaning it will pull a
+                  random quote each time a page loads. I recommend keeping these
+                  pretty short and not to wordy. Simple and clean. Max 250 ch.”
+                </p>
+                <footer class="blockquote-footer">
+                  Bob, <cite title="Source Title">Manager of XXX Facility</cite>
+                </footer>
+              </blockquote>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="logo-carousel">
+        <div class="container pt-5 pb-2 position-relative">
+          <div class="intro theme-light text-center">
+            <h2 class="h1">Flooring Partners</h2>
+          </div>
+          <ul class="list logo-grid">
+            <li><img src="images/logo-bve.jpg" alt="" /></li>
+            <li><img src="images/logo-cybex.jpg" alt="" /></li>
+            <li><img src="images/logo-pavigym.jpg" alt="" /></li>
+            <li><img src="images/logo-ecore.jpg" alt="" /></li>
+            <li><img src="images/logo-rage.jpg" alt="" /></li>
+            <li><img src="images/logo-regupol.jpg" alt="" /></li>
+            <li>
+              <img src="images/logo-comfort-gym.jpg" alt="" />
+            </li>
+          </ul>
+          <div class="customize-tools">
+            <ul
+              class="controls"
+              id="customize-controls"
+              aria-label="Carousel Navigation"
+              tabindex="0"
+            >
+              <li
+                class="prev"
+                aria-controls="logo-slider"
+                tabindex="-1"
+                data-controls="prev"
+              >
+                <i class="fa fa-chevron-left"></i>
+              </li>
+              <li
+                class="next"
+                aria-controls="logo-slider"
+                tabindex="-1"
+                data-controls="next"
+              >
+                <i class="fa fa-chevron-right"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="partner-list">
+        <div class="container py-5">
+          <div class="intro theme-light text-center">
+            <h2 class="h1">Flooring Partners</h2>
+          </div>
+          <ul class="list grid justify-content-center">
+            <li><img src="images/logo-31.png" alt="" /></li>
+            <li><img src="images/logo-32.png" alt="" /></li>
+            <li><img src="images/logo-33.png" alt="" /></li>
+            <li><img src="images/logo-34.png" alt="" /></li>
+            <li><img src="images/logo-35.png" alt="" /></li>
+            <li><img src="images/logo-36.png" alt="" /></li>
+            <li><img src="images/logo-37.png" alt="" /></li>
+            <li><img src="images/logo-38.png" alt="" /></li>
+            <li><img src="images/logo-39.png" alt="" /></li>
+            <li><img src="images/logo-40.png" alt="" /></li>
+          </ul>
+          <div class="actions text-center pt-4">
+            <a href="#" class="btn primary">CTA button</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="cards">
+        <div class="container py-5">
+          <div class="intro theme-light text-center">
+            <h2 class="h1">Our Secret Sauce to Success</h2>
+            <p class="lead">
+              Adipisci dignissimos aspernatur similique soluta officia, non,
+              laboriosam rem nesciunt aut? Magnam saepe, error magni, laboriosam
+              dicta quas minima alias quaerat pariatur explicabo dolores dolor
+              blanditiis perspiciatis? Deserunt dolor.
+            </p>
+          </div>
+          <div class="dropdown pt-3 text-center">
+            <button
+              class="btn text dropdown-toggle"
+              type="button"
+              id="dropdownFacilityType"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Facility Type
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownFacilityType">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </ul>
+          </div>
+
+          <div class="grid flex-md-nowrap py-5">
+            <div class="card card-icon">
+              <figure class="media-icon bg-gray">
+                <a href="#0"
+                  ><img src="images/icon-consulting-white.png" alt="..."
+                /></a>
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="card-title">
+                  <a href="#0">Consulting and Feasibility</a>
+                </h2>
+              </div>
+            </div>
+            <div class="card card-icon">
+              <figure class="media-icon bg-gray">
+                <a href="#0"
+                  ><img src="images/icon-layouts-white.png" alt="..."
+                /></a>
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="card-title">
+                  <a href="#0">Layouts and Renderings</a>
+                </h2>
+              </div>
+            </div>
+            <div class="card card-icon">
+              <figure class="media-icon bg-gray">
+                <a href="#0"
+                  ><img src="images/icon-equipment-white.png" alt="..."
+                /></a>
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="card-title">
+                  <a href="#0">Equipment and Leasing</a>
+                </h2>
+              </div>
+            </div>
+            <div class="card card-icon">
+              <figure class="media-icon bg-gray">
+                <a href="#0"
+                  ><img src="images/icon-installation-white.png" alt="..."
+                /></a>
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="card-title">
+                  <a href="#0">Installation and Setup</a>
+                </h2>
+              </div>
+            </div>
+            <div class="card card-icon">
+              <figure class="media-icon bg-gray">
+                <a href="#0"
+                  ><img src="images/icon-orientation-white.png" alt="..."
+                /></a>
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="card-title">
+                  <a href="#0">Orientation and Training</a>
+                </h2>
+              </div>
+            </div>
+          </div>
+
+          <div class="grid flex-md-nowrap pb-2">
+            <div class="card card-icon">
+              <figure class="media-icon bg-gray">
+                <a href="#0"
+                  ><img src="images/icon-consulting-white.png" alt="..."
+                /></a>
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="card-title">
+                  <a href="#0">Consulting and Feasibility</a>
+                </h2>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card card-icon">
+              <figure class="media-icon bg-gray">
+                <a href="#0"
+                  ><img src="images/icon-layouts-white.png" alt="..."
+                /></a>
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="card-title">
+                  <a href="#0">Layouts and Renderings</a>
+                </h2>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+            <div class="card card-icon">
+              <figure class="media-icon bg-gray">
+                <a href="#0"
+                  ><img src="images/icon-equipment-white.png" alt="..."
+                /></a>
+              </figure>
+              <div class="card-body text-center">
+                <h2 class="card-title">
+                  <a href="#0">Equipment and Leasing</a>
+                </h2>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card-deck pt-5">
+            <div class="card card-outline text-center pt-1 px-3 pb-2">
+              <div class="card-body">
+                <h2 class="h1 color-green">Card title</h2>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptates, quibusdam? Vitae, nesciunt optio ipsum at, culpa
+                  fugiat aut itaque dolorum dignissimos natus odio eveniet
+                  omnis, commodi nobis vel rem labore esse eaque in. Enim
+                  quisquam sit autem exercitationem assumenda culpa?
+                </p>
+                <p class="card-text">
+                  Aperiam deserunt dolores vel, culpa quisquam maxime nisi, enim
+                  beatae excepturi voluptas velit. Corrupti deleniti deserunt
+                  dolore earum sequi non consequatur ab tempore ex alias
+                  molestias, inventore nemo animi numquam corporis tempora!
+                  Nihil maiores sapiente, adipisci quaerat cumque similique
+                  enim, placeat excepturi, fuga libero quisquam delectus quod!
+                </p>
+                <div class="actions pt-3">
+                  <a href="#" class="btn primary">Button Primary</a>
+                </div>
+              </div>
+            </div>
+            <div class="card card-outline text-center pt-1 px-3 pb-2">
+              <div class="card-body">
+                <h2 class="h1 color-green">Card title</h2>
+                <p class="card-text">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptates, quibusdam? Vitae, nesciunt optio ipsum at, culpa
+                  fugiat aut itaque dolorum dignissimos natus odio eveniet
+                  omnis, commodi nobis vel rem labore esse eaque in. Enim
+                  quisquam sit autem exercitationem assumenda culpa?
+                </p>
+                <p class="card-text">
+                  Aperiam deserunt dolores vel, culpa quisquam maxime nisi, enim
+                  beatae excepturi voluptas velit. Corrupti deleniti deserunt
+                  dolore earum sequi non consequatur ab tempore ex alias
+                  molestias, inventore nemo animi numquam corporis tempora!
+                  Nihil maiores sapiente, adipisci quaerat cumque similique
+                  enim, placeat excepturi, fuga libero quisquam delectus quod!
+                </p>
+                <div class="actions pt-3">
+                  <a href="#" class="btn primary">Button Primary</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="details">
+        <div class="container">
+          <div class="card card-detail flex-row-reverse my-5">
+            <div class="card-body d-flex flex-column flex-md py-0">
+              <div class="color-green mb-2">
+                <h2 class="card-title">Card title</h2>
+                <p class="h3">Facility Type</p>
+                <p class="h4 mb-4">New Build or Remodal Option Here</p>
+                <p class="h4">Square Feet: 4500</p>
+              </div>
+              <p class="card-text">
+                Perferendis quibusdam quae unde nobis dolorum eos, odio
+                delectus. Sit quos facilis hic enim ut voluptatem unde aliquam
+                soluta delectus nam harum,
+                <em>laborum eius veritatis corrupti dignissimos</em> dolore!
+                Laudantium, molestiae vitae, repellendus soluta ducimus dolores
+                a voluptatem inventore nesciunt corrupti cum incidunt
+                perferendis.
+              </p>
+              <div class="actions">
+                <a href="#" class="btn primary">Gallery</a>
+              </div>
+            </div>
+            <div class="card-media">
+              <img
+                src="https://via.placeholder.com/450x450"
+                class="card-img"
+                alt="..."
+              />
+            </div>
+          </div>
+          <div class="card card-detail flex-row-reverse my-5">
+            <div class="card-body d-flex flex-column flex-md py-0">
+              <div class="color-green mb-2">
+                <h2 class="card-title">Team Member</h2>
+                <p class="h3">Vice President of Something</p>
+                <p class="h4 mb-2">Department Name</p>
+              </div>
+              <ul class="list icon-list d-lg-flex flex-grow-0 mb-3">
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-facebook-circled.png" alt=""
+                  /></a>
+                </li>
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-twitter-circled.png" alt=""
+                  /></a>
+                </li>
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-linkedin-circled.png" alt=""
+                  /></a>
+                </li>
+                <li class="navbar-icon">
+                  <a href="#0"
+                    ><img src="images/icon-instagram-circled.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+              <p class="card-text">
+                Perferendis quibusdam quae unde nobis dolorum eos, odio
+                delectus. Sit quos facilis hic enim ut voluptatem unde aliquam
+                soluta delectus nam harum,
+                <em>laborum eius veritatis corrupti dignissimos</em> dolore!
+                Laudantium, molestiae vitae, repellendus soluta ducimus dolores
+                a voluptatem inventore nesciunt corrupti cum incidunt
+                perferendis.
+              </p>
+              <div class="actions">
+                <a href="#" class="btn primary">Email Member</a>
+              </div>
+            </div>
+            <div class="card-media">
+              <img
+                src="https://via.placeholder.com/450x450"
+                class="card-img"
+                alt="..."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact">
+        <div class="container py-5">
+          <div class="intro theme-light text-center">
+            <h2 class="h1 mb-4">Get in Touch</h2>
+          </div>
+          <div class="d-sm-flex justify-content-center pt-3">
+            <div class="h3 mb-0 pt-sm-1 pr-sm-5 text-uppercase color-green">
+              <address>
+                Commercial Fitness Solutions<br />
+                12386 Dumont Way #100<br />
+                Littleton, CO 80125
+              </address>
+              <a href="tel:8005001098" class="d-block"
+                >800.500.1098 <span class="text-uppercase">Toll Free</span></a
+              >
+              <a href="tel:7204798200" class="d-block"
+                >720.479.8200 <span class="text-uppercase">Phone</span></a
+              >
+              <a href="tel:7204798201" class="d-block"
+                >720.479.8201 <span class="text-uppercase">Fax</span></a
+              >
+            </div>
+            <form class="form flex-grow-2" action="post">
+              <fieldset>
+                <legend class="h4 color-green text-uppercase">
+                  General Inquiries
+                </legend>
+                <div class="form-group">
+                  <label for="" class="sr-only">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id=""
+                    aria-describedby=""
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="" class="sr-only">Name</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id=""
+                    aria-describedby=""
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="" class="sr-only">Phone</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id=""
+                    aria-describedby=""
+                    placeholder="Phone"
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    id=""
+                    class="form-control"
+                    placeholder="How can we help you?"
+                  ></textarea>
+                </div>
+                <div class="form-group">captcha</div>
+                <button type="submit" class="btn primary">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container theme-light py-5">
+          <div class="intro">
+            <h2 class="h1">Standard Text Page and All Styles (.h1)</h2>
+            <p class="lead">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+              dolore beatae, accusantium ab eveniet ducimus, blanditiis
+              aspernatur rem ipsam esse sit est corrupti doloremque quia in
+              error? Magnam molestiae sint asperiores. Iusto quod sunt minima.
+            </p>
+          </div>
+          <small class="d-block text-muted mb-3"
+            >Vitae est quo rem suscipit illum repellendus numquam veniam.
+            Accusantium laborum placeat fugiat repudiandae eveniet voluptate
+            quod ipsa maiores, error obcaecati sed at accusamus necessitatibus,
+            nisi ad quas tenetur enim praesentium ex blanditiis sit dolorem,
+            similique fugit? Laudantium, nam.</small
+          >
+          <p>
+            Quam id vitae saepe optio quos doloribus asperiores, repellat
+            reiciendis beatae nostrum, nemo eligendi recusandae sapiente illum
+            vel facere explicabo exercitationem, velit accusantium error. Quasi
+            sint molestias impedit natus, ea eveniet iure, magni nihil esse
+            nulla placeat tempore sequi incidunt omnis culpa nemo voluptate
+            porro asperiores iusto recusandae enim praesentium, qui eos! Ab,
+            omnis rerum? Facere eveniet pariatur, maiores molestiae minus velit
+            quam rerum atque fugiat animi?
+          </p>
+          <h2>Heading h2</h2>
+          <p>
+            Quam id vitae <u>saepe optio quos doloribus</u> asperiores, repellat
+            reiciendis
+            <a href="#0">Text Link dolorum commodi ex praesentium</a> beatae
+            nostrum, <strong>Strong recusandae sapiente illum</strong> vel
+            facere explicabo exercitationem, velit accusantium error. Quasi sint
+            molestias impedit natus, ea eveniet iure,
+            <em>Italic magni nihil esse nulla placeat</em> tempore sequi
+            incidunt omnis culpa nemo voluptate porro asperiores iusto
+            recusandae enim praesentium, qui eos! Ab, omnis rerum?
+            <em
+              ><strong
+                >Italic Strong eveniet pariatur, maiores molestiae</strong
+              ></em
+            >
+            minus velit quam rerum atque fugiat. Adipisci voluptas dolorem ea ut
+            amet est hic exercitationem quos? Maiores est, magnam deleniti!
+            Quaerat labore incidunt consequuntur aliquam. Voluptatem atque
+            repudiandae totam natus itaque ea necessitatibus animi.
+          </p>
+          <h3>Heading h3</h3>
+          <p>
+            Ab ratione deleniti iusto delectus officiis necessitatibus
+            assumenda, illo facilis corrupti ex earum hic, pariatur unde.
+            Obcaecati at accusamus in maiores deleniti.
+          </p>
+          <ul>
+            <li>
+              Standard Bullets indent 20 px Bullet is bold and Green Giatum qui
+              tat la aut laor irit duis autpat ing exercilisi.
+            </li>
+            <li>
+              Laudantium et deserunt autem fugiat itaque reprehenderit
+              repellendus molestias odio.
+            </li>
+            <li>Quas temporibus expedita consequatur.</li>
+          </ul>
+          <p>
+            Quam id vitae saepe optio quos doloribus asperiores, repellat
+            reiciendis beatae nostrum, nemo eligendi recusandae sapiente illum
+            vel facere explicabo exercitationem, velit accusantium error. Quasi
+            sint molestias.
+          </p>
+          <ol>
+            <li>
+              Standard Bullets indent 20 px Bullet is bold and Green Giatum qui
+              tat la aut laor irit duis autpat ing exercilisi.
+            </li>
+            <li>
+              Laudantium et deserunt autem fugiat itaque reprehenderit
+              repellendus molestias odio.
+            </li>
+            <li>Quas temporibus expedita consequatur.</li>
+          </ol>
+          <p>
+            Voluptatem maiores quos ullam dignissimos, explicabo earum odit
+            aliquid natus quidem fuga magnam nesciunt recusandae rerum. Suscipit
+            earum similique cumque veniam, ex laudantium! Ipsum rem, eligendi
+            provident itaque ut fuga iste fugit.
+          </p>
+          <dl>
+            <dt>Definition Tag</dt>
+            <dd>
+              Definition description goes here inventore quisquam nisi quo
+              dolores laudantium culpa aut, ducimus illum officiis cumque non
+              neque harum.
+            </dd>
+            <dt>Another Definition Item</dt>
+            <dd>
+              Nesciunt harum est vitae reprehenderit vel perspiciatis fuga
+              quidem delectus modi amet perferendis vero veniam corporis
+              inventore, earum non tempore.
+            </dd>
+          </dl>
+          <h4>Heading h4</h4>
+          <p>
+            Vitae est quo rem suscipit illum repellendus numquam veniam.
+            Accusantium laborum placeat fugiat repudiandae eveniet voluptate
+            quod ipsa maiores, error obcaecati sed at accusamus necessitatibus,
+            nisi ad quas tenetur enim praesentium ex blanditiis sit dolorem,
+            similique fugit? Laudantium, nam.
+          </p>
+          <dl class="row">
+            <dt class="col-sm-3">Description lists</dt>
+            <dd class="col-sm-9">
+              A description list is perfect for defining terms.
+            </dd>
+
+            <dt class="col-sm-3">Euismod</dt>
+            <dd class="col-sm-9">
+              <p>
+                Vestibulum id ligula porta felis euismod semper eget lacinia
+                odio sem nec elit.
+              </p>
+              <p>Donec id elit non mi porta gravida at eget metus.</p>
+            </dd>
+
+            <dt class="col-sm-3">Malesuada porta</dt>
+            <dd class="col-sm-9">
+              Etiam porta sem malesuada magna mollis euismod.
+            </dd>
+
+            <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
+            <dd class="col-sm-9">
+              Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum
+              nibh, ut fermentum massa justo sit amet risus.
+            </dd>
+
+            <dt class="col-sm-3">Nesting</dt>
+            <dd class="col-sm-9">
+              <dl class="row">
+                <dt class="col-sm-4">Nested definition list</dt>
+                <dd class="col-sm-8">
+                  Aenean posuere, tortor sed cursus feugiat, nunc augue blandit
+                  nunc.
+                </dd>
+              </dl>
+            </dd>
+          </dl>
+
+          <p class="h2">Buttons</p>
+          <ul class="list flex-column p-1">
+            <li class="my-3">
+              <a href="#0" class="btn primary">Primary</a>
+              <a href="#0" class="btn secondary">Secondary</a>
+              <a href="#0" class="btn light">Light</a>
+              <a href="#0" class="btn dark">Dark</a>
+              <a href="#0" class="btn alt">Alt</a>
+              <a href="#0" class="btn text">Text</a>
+            </li>
+            <li class="my-3">
+              <a href="#0" class="btn outline primary">Primary</a>
+              <a href="#0" class="btn outline secondary">Secondary</a>
+              <a href="#0" class="btn outline light">Light</a>
+              <a href="#0" class="btn outline dark">Dark</a>
+              <a href="#0" class="btn outline alt">Alt</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer theme-dark bg-gray">
+      <div class="container py-5">
+        <div class="flex-row">
+          <div class="contact-block flex-md mb-5 mb-lg-0">
+            <img class="logo mb-4" src="images/logo-CFS-white.png" />
+            <address class="mb-3">
+              <p class="mb-0">
+                12386 Dumont Way, Ste. 100<br />Littleton, CO 80125
+              </p>
+            </address>
+            <p class="mb-0">
+              <span>Phone:</span> <a href="tel:7204798200">720.479.8200</a>
+            </p>
+            <p class="mb-4">
+              <span>Fax:</span> <a href="tel:7204798201">720.479.8201</a>
+            </p>
+            <small class="mb-4">© Commericial Fitness Solutions, 2017</small>
+            <img
+              class="mb-1"
+              src="images/logo-BBB.png"
+              alt="CFS BBB A+ rating"
+            />
+            <div class="actions pt-3">
+              <a href="#">Privacy Policy</a> <span class="px-2">|</span>
+              <a href="#">Terms of Use</a>
+            </div>
+          </div>
+          <div class="map">
+            <p class="h3 text-uppercase mb-3">Our Location</p>
+            <div class="media map-embed">
+              <div class="mapouter">
+                <div class="gmap_canvas">
+                  <iframe
+                    width="100%"
+                    height="320"
+                    id="gmap_canvas"
+                    src="https://maps.google.com/maps?q=12386%20Dumont%20Way%2C%20Ste.%20100%20Littleton%2C%20CO%2080125&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                  ></iframe
+                  >Google Maps Generator by
+                  <a href="https://www.embedgooglemap.net"
+                    >embedgooglemap.net</a
+                  >
+                </div>
+                <style>
+                  .mapouter {
+                    position: relative;
+                    text-align: right;
+                    height: 320px;
+                    width: 100%;
+                  }
+                  .gmap_canvas {
+                    overflow: hidden;
+                    background: none !important;
+                    height: 320px;
+                    width: 100%;
+                  }
+                </style>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="designer-link">
+        <div class="container py-3">
+          <small class="mb-0"
+            ><span>Denver Website Design by</span>
+            <a href="https://381design.com/">381 Design</a></small
+          >
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"
+  ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
+  <script>
+    var slider = tns({
+      container: ".logo-grid",
+      items: 2,
+      edgePadding: 0,
+      controlsContainer: "#customize-controls",
+      navPosition: "bottom",
+      responsive: {
+        320: {
+          items: 2
+        },
+        540: {
+          items: 3
+        },
+        700: {
+          items: 5
+        },
+        900: {
+          items: 7
+        }
+      }
+    });
+  </script>
+</html>
